@@ -16,7 +16,7 @@ export class GoogleMapsService {
 
   getCoordinates() {
     let promise = new Promise<GoogleMaps>((resolve, reject) => {
-      this.http.get('https://maps.googleapis.com/maps/api/geocode/json?address=11+Neas+Ionias,+Vyronas&key=AIzaSyBon4PXD6sA5y8_cIalZG9trOa95ypjCOM')
+      this.http.get('https://maps.googleapis.com/maps/api/geocode/json?address=Filolaou,+Athens&key=<your_api_key')
         .toPromise()
         .then((response) => {
           resolve(response as GoogleMaps)
