@@ -1,6 +1,7 @@
 # Angular6 Geolocation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8 and Geolocation.
+Open google-maps.service.ts and use your Google API key.
 
 ## Development server
 
